@@ -1,0 +1,20 @@
+{
+    "name": "helliosolutions/hellio-php-sdk",
+    "description": "Official PHP SDK that integrates with Hellio Messaging's SMS fleets of APIs nicely with PHP adding support for SMS, Notification, Voice SMS, OTP Codes, OTP Verification, Email Validator Service.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "license": "The BSD 2-Clause License",
+    "autoload": {
+        "psr-4": {
+            "Helliosolutions\\HellioPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hellio Solutions",
+            "email": "support@helliomessaging.com"
+        }
+    ]
+}
